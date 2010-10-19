@@ -1,0 +1,3 @@
+Logout Box
+
+An elegant logout dialog box written in Python. Depends on pygtk, cairo and pango. Current works only with Python 2.x branch.
