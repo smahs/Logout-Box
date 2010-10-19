@@ -1,6 +1,5 @@
 Logout Box
 
-<<<<<<< HEAD
 An simple logout dialog box written in Python. Depends on pygtk, cairo and pango. 
 Current works only with Python 2.x branch.
 
@@ -18,7 +17,4 @@ Implement use of config file for custom commands and keybindings.
 And lastly, and hopefully, adapt to python 3.x.
 
 Icons:
-The icons used are featured in Aw0ken icon theme available here:
-http://alecive.deviantart.com/
-=======
->>>>>>> origin/master
+The icons used are featured in Aw0ken icon theme.
