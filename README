@@ -21,5 +21,4 @@ Icons:
 The icons used are featured in Aw0ken icon theme available here:
 http://alecive.deviantart.com/
 =======
-An elegant logout dialog box written in Python. Depends on pygtk, cairo and pango. Current works only with Python 2.x branch.
 >>>>>>> origin/master
