@@ -1,0 +1,21 @@
+Logout Box
+
+An simple logout dialog box written in Python. Depends on pygtk, cairo and pango. 
+Current works only with Python 2.x branch.
+
+Default keybindings:
+b	reboot
+s	shutdown
+l	logout
+h	hibernate
+r	suspend
+else	cancel
+
+To do:
+Modify the geometry of the main window to have curved sides on the left and right.
+Implement use of config file for custom commands and keybindings.
+And lastly, and hopefully, adapt to python 3.x.
+
+Icons:
+The icons used are featured in Aw0ken icon theme available here:
+http://alecive.deviantart.com/
