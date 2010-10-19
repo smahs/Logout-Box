@@ -84,13 +84,14 @@ class logout(gtk.Window):
 		currentdir = os.path.dirname(__file__) + os.sep + 'icons'
 		
 		topbox = gtk.VBox(False, 5)
-		self.box1 = gtk.HBox(False, 20)
+		mainbox = gtk.HBox(False, 20)
 		header = gtk.Label()
 
 		header.set_use_markup(1)
 		header.set_markup("<span foreground='#c9c9c9' size='xx-large'>Logout Options</span>")
 		header.show()
 		topbox.add(header)
+		
 		for key in keys:
 			ebox = gtk.EventBox()
 			ebox.set_app_paintable(1)
@@ -109,10 +110,10 @@ class logout(gtk.Window):
 			box.show()
 			ebox.add(box)
 			ebox.connect("button_press_event", self.action, key)
-			self.box1.add(ebox)
+			mainbox.add(ebox)
 
-		self.box1.show()
-		topbox.add(self.box1)
+		mainbox.show()
+		topbox.add(mainbox)
 		topbox.show()
 		self.add(topbox)
 
